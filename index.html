@@ -4,37 +4,46 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Studio</title>
   </head>
   <body>
     <header>
-      <section>
-        <div>
-          <a href="/">WebStudio</a>
+      <section class="header">
+        <div class="header-logo active">
+          <a href="/"><span class="logo brand-color">Web</span>Studio</a>
         </div>
-        <nav>
+        <nav class="header-nav active">
           <ul>
-            <li><a href="/agencja">Agencja</a></li>
+            <li>
+              <a href="/agencja"><span class="brand-color">Agencja</span></a>
+            </li>
             <li><a href="/portfolio.html">Portfolio</a></li>
             <li><a href="/kontakt">Kontakt</a></li>
           </ul>
         </nav>
-        <div>
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <div class="header-kontakt active">
+          <a class="brand-color" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
           <a href="tel:+48111111111">+48 111 111 111</a>
         </div>
       </section>
     </header>
     <main>
-      <div>
+      <div class="content">
         <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-        <button type="button">Zamów usługe</button>
+        <button class="button" type="button">Zamów usługe</button>
       </div>
       <section>
         <ul>
-          <li>
-            <h4>LOREM IPSUM</h4>
-            <p>
+          <li class="text">
+            <h4 class="text-title">LOREM IPSUM</h4>
+            <p class="text-item">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
@@ -61,7 +70,7 @@
             </p>
           </li>
         </ul>
-        <h2>Czym się zajmujemy</h2>
+        <h2 class="title">Czym się zajmujemy</h2>
         <ul>
           <li>
             <img src="./images/code.jpg" alt="code" width="370" height="294" />
@@ -84,9 +93,9 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Nasz zespół</h2>
-        <ul>
+      <section class="team">
+        <h2 class="team-title title">Nasz zespół</h2>
+        <ul class="team-sheet">
           <li>
             <figure>
               <img
@@ -96,8 +105,8 @@
                 height="260"
               />
               <figcaption>
-                <h4>John Doe</h4>
-                <p>Product Designer</p>
+                <h4 class="team-caption">John Doe</h4>
+                <p class="team-text">Product Designer</p>
               </figcaption>
             </figure>
           </li>
@@ -110,8 +119,8 @@
                 height="260"
               />
               <figcaption>
-                <h4>John Doe</h4>
-                <p>Frontent Developer</p>
+                <h4 class="team-caption">John Doe</h4>
+                <p class="team-text">Frontent Developer</p>
               </figcaption>
             </figure>
           </li>
@@ -124,8 +133,8 @@
                 height="260"
               />
               <figcaption>
-                <h4>John Doe</h4>
-                <p>Marketing</p>
+                <h4 class="team-caption">John Doe</h4>
+                <p class="team-text">Marketing</p>
               </figcaption>
             </figure>
           </li>
@@ -138,19 +147,19 @@
                 height="260"
               />
               <figcaption>
-                <h4>John Doe</h4>
-                <p>UI Designer</p>
+                <h4 class="team-caption">John Doe</h4>
+                <p class="team-text">UI Designer</p>
               </figcaption>
             </figure>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
-      <div>
-        <a href="/">WebStudio</a>
+    <footer class="footer active">
+      <div class="footer-logo">
+        <a href="/"><span class="logo brand-color">Web</span>Studio</a>
       </div>
-      <address>m. Warszawa, Aleje Jerozolimskie 21</address>
+      <address class="footer-adres">m. Warszawa, Aleje Jerozolimskie 21</address>
       <ul>
         <li>
           <a href="mailto:info@devstudio.com">info@devstudio.com</a>
