@@ -9,40 +9,44 @@
   </head>
   <body>
     <header>
-      <div>
-        <div>
-          <a href="/">WebStudio</a>
+      <section class="header">
+        <div class="header-logo active">
+          <a href="/"><span class="logo brand-color">Web</span>Studio</a>
         </div>
-        <nav>
+        <nav class="header-nav active">
           <ul>
-            <li><a href="/agencja">Agencja</a></li>
-            <li><a href="/portfolio">Portfolio</a></li>
+            <li>
+              <a href="/agencja"><span class="brand-color">Agencja</span></a>
+            </li>
+            <li><a href="/portfolio.html">Portfolio</a></li>
             <li><a href="/kontakt">Kontakt</a></li>
           </ul>
         </nav>
-        <div>
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <div class="header-kontakt active">
+          <a class="brand-color" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
           <a href="tel:+48111111111">+48 111 111 111</a>
         </div>
-      </div>
+      </section>
     </header>
-    <main>
-      <div>
+    <main class="portfolio-main-block">
+      <div class="portfolio-main-block-button">
         <ul>
           <li>
-            <button type="button">Wszystkie</button>
+            <button class="button-active" type="button">Wszystkie</button>
           </li>
           <li>
-            <button type="button">Strony</button>
+            <button class="portfolio-button stron" type="button">Strony</button>
           </li>
           <li>
-            <button type="button">Aplikacje</button>
+            <button class="portfolio-button ap" type="button">Aplikacje</button>
           </li>
           <li>
-            <button type="button">Dizajn</button>
+            <button class="portfolio-button dizajn" type="button">Dizajn</button>
           </li>
           <li>
-            <button type="button">Marketing</button>
+            <button class="portfolio-button marketing" type="button">Marketing</button>
           </li>
         </ul>
       </div>
@@ -172,17 +176,17 @@
         </ul>
       </div>
     </main>
-    <footer>
-      <div>
-        <a href="/">WebStudio</a>
+    <footer class="footer">
+      <div class="footer-logo">
+        <a class="foter-active" href="/"><span class="logo brand-color">Web</span>Studio</a>
       </div>
-      <address>m. Warszawa, Aleje Jerozolimskie 21</address>
+      <address class="footer-adres"><span class="foter-active"> m. Warszawa, Aleje Jerozolimskie 21</span></address>
       <ul>
         <li>
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a class="foter-active" href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
         <li>
-          <a href="tel:+48111111111">+48 111 111 111</a>
+          <a class="foter-active" href="tel:+48111111111">+48 111 111 111</a>
         </li>
       </ul>
     </footer>
