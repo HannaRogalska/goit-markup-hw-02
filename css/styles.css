@@ -3,21 +3,18 @@ body {
   font-size: 14px;
   background-color: #ffffff;
 }
-header {
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 0.8;
-}
+
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-size: 26px;
-  line-height: 0, 7;
+  line-height: 1,1;
 }
 ul {
   list-style-type: none;
 }
 li {
   display: inline-block;
+  line-height: 1,2;
 }
 header a {
   text-decoration: none;
@@ -26,10 +23,14 @@ header a {
 .active a:hover {
   text-decoration: underline var(--brand-color);
 }
+.active:hover {
+  text-decoration: underline var(--brand-color);
+}
 :root {
   --brand-color: #2196f3;
 }
 .brand-color {
+  line-height: 1,2;
   color: var(--brand-color);
 }
 .content {
@@ -45,18 +46,17 @@ header a {
   background-color: var(--brand-color);
   font-size: 16px;
   font-weight: 700;
-  line-height: 0.5;
+  line-height: 1.8;
   cursor: pointer;
   width: 200px;
   height: 50px;
 }
 .text h4 {
   font-weight: 700;
-  line-height: 0.8;
+  line-height: 1.2;
 }
 .text p {
-  line-height: 0.6;
-  font-weight: 400;
+  line-height: 1.7;
 }
 .work {
   background-color: #e5e5e5;
@@ -64,7 +64,7 @@ header a {
 .work h2 {
   font-weight: 700;
   font-size: 36px;
-  line-height: 0.8;
+  line-height: 1.7;
   text-align: center;
 }
 .team {
@@ -76,18 +76,17 @@ header a {
 .team h2 {
   font-weight: 700;
   font-size: 36px;
-  line-height: 0.8;
+  line-height: 1.2;
   text-align: center;
 }
 .team h4 {
   font-weight: 500;
   font-size: 16px;
-  line-height: 0.8;
+  line-height: 1.2;
 }
 .team p {
-  font-weight: 400;
   font-size: 16px;
-  line-height: 0.8;
+  line-height: 1.2;
 }
 footer a {
   text-decoration: none;
@@ -100,15 +99,18 @@ footer a {
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-size: 26px;
-  line-height: 0, 7;
+  line-height: 1,2;
   font-weight: 700;
 }
 .footer-adres {
-  line-height: 0.6;
+  line-height: 1.7;
   font-style: normal;
 }
 .foter-active:hover {
   border: solid 1px #2196f3;
+}
+.contact{
+line-height: 1.7;
 }
 .portfolio-main-block {
   background-color: #e5e5e5;
@@ -120,12 +122,11 @@ footer a {
 .portfolio-main-block h4 {
   font-weight: 700;
   font-size: 18px;
-  line-height: 0.5;
+  line-height: 2;
 }
 .portfolio-main-block p {
-  font-weight: 400;
   font-size: 16px;
-  line-height: 0.5;
+  line-height: 1.8;
 }
 .portfolio-main-block-button {
   text-align: center;
