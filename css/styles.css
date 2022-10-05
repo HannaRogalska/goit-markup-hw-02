@@ -49,7 +49,7 @@ header a {
   cursor: pointer;
   width: 200px;
   height: 50px;
-  border: none;
+  border: solid 1px var(--brand-color);
 }
 .text h4 {
   font-weight: 700;
