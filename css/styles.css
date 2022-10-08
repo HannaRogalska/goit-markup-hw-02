@@ -2,19 +2,22 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   background-color: #ffffff;
+  color: #212121;
 }
 
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-size: 26px;
+  color: #000000;
 }
 ul {
   list-style-type: none;
 }
 li {
   display: inline-block;
-  line-height: 1,2;
+  line-height: 1, 2;
 }
+
 header a {
   text-decoration: none;
   color: black;
@@ -28,9 +31,18 @@ header a {
 :root {
   --brand-color: #2196f3;
 }
+:root {
+  --text-color: #757575;
+}
+:root {
+  --kontakt-color: rgba(255, 255, 255, 0.6);
+}
 .brand-color {
-  line-height: 1,2;
+  line-height: 1, 2;
   color: var(--brand-color);
+}
+.text-color {
+  color: var(--text-color);
 }
 .content {
   font-size: 44px;
@@ -98,7 +110,7 @@ footer a {
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-size: 26px;
-  line-height: 1,2;
+  line-height: 1, 2;
   font-weight: 700;
 }
 .footer-adres {
@@ -108,8 +120,11 @@ footer a {
 .foter-active:hover {
   border: solid 1px #2196f3;
 }
-.contact{
-line-height: 1.7;
+.kontakt-color {
+  color: var(--kontakt-color);
+}
+.contact {
+  line-height: 1.7;
 }
 .portfolio-main-block {
   background-color: #e5e5e5;
@@ -138,25 +153,23 @@ line-height: 1.7;
   cursor: pointer;
   width: 121px;
   height: 38px;
-  border: none;
 }
 .portfolio-button {
-  border: none;
   background-color: #f5f4fa;
 }
-.stron {
+.button-pages {
   width: 93px;
   height: 38px;
 }
-.ap {
+.button-applicaton {
   width: 114px;
   height: 38px;
 }
-.dizajn {
+.button-designer {
   width: 91px;
   height: 38px;
 }
-.marketing {
+.button-marketing {
   width: 121px;
   height: 38px;
 }
